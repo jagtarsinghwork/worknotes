@@ -1,0 +1,1006 @@
+
+apiname :   /login  
+data :  {
+	 token=  "yJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDYwNzlhMDQ2MzI4YjJhNjA3ODcwYjkiLCJpYXQiOjE2MjQwMjA5Nzl9.ceSqEadAPiVVulWX5i4psByNURuMxkjyEQBfQwpjAUw"
+	 menus :  [
+		  {
+		"_component": "CNavItem",
+		"assistive": "",
+		"anchor": "Dashboard",
+		"to": "/dashboard",
+		"icon": "cil-speedometer",
+		"badge": {
+			"color": "info",
+			"text": "NEW"
+		}
+	},
+	{
+		"_component": "CNavTitle",
+		"anchor": "Theme",
+	},
+	{
+		"_component": "CNavItem",
+		"assistive": "",
+		"anchor": "Colors",
+		"to": "/theme/colors",
+		"icon": "cil-drop",
+	},
+
+	{
+		"_component": "CNavTitle",
+		"anchor": "All User",
+	},
+
+	{
+		"_component": "CNavGroup",
+		"assistive": "",
+		"anchor": "Base",
+		"to": "/to",
+		"icon": "cil-puzzle",
+		"items": [
+			{
+				"_component": "CNavItem",
+				"assistive": "",
+				"anchor": "Accordion",
+				"to": "/base/accordion"
+			},
+			{
+				"_component": "CNavItem",
+				"assistive": "",
+				"anchor": "Breadcrumb",
+				"to": "/base/breadcrumbs"
+			},
+		
+		]
+	},
+	
+	{
+		"_component": "CNavItem",
+		"assistive": "",
+		"anchor": "Widgets",
+		"to": "/widgets",
+		"icon": "cil-calculator",
+		"badge": {
+			"color": "info",
+			"text": "NEW"
+		},
+	},
+	{
+		"_component": "CNavTitle",
+		"anchor": "Extras"
+	}
+	 ]
+}
+
+apiname     : dashboardwidgets
+widgets : {
+
+			totaluser: 	{
+						labels: ["January", "February","March","April","May", "June", "July", "August","September","October", "November","December"], // this can be static
+						data: [65, 59, 84, 84, 51, 55, 40, 50, 79, 32, 34, 45],		
+				}
+			totaluser: 	{
+						labels: ["January", "February","March","April","May", "June", "July", "August","September","October", "November","December"], // this can be static
+						data: [65, 59, 84, 84, 51, 55, 40, 50, 79, 32, 34, 45],		
+				}
+			totaluser : {
+						labels: ["January", "February","March","April","May", "June", "July", "August","September","October", "November","December"], // this can be static
+						data: [65, 59, 84, 84, 51, 55, 40, 50, 79, 32, 34, 45],		
+				}
+}
+
+
+
+// listsubadmin : {"code":0,"error":false,"msg":"Sub admin list","data":{"total":"5","list":[{"id":"42","name":"nasru","username":"saddfwe@gmail.com","phone":"8921928389","email":"saddfwe@gmail.com","status":"1","usertype":"2","created":"1624015175"},{"id":"41","name":"jagtar","username":"asdes@gmail.com","phone":"2345234323","email":"asdes@gmail.com","status":"1","usertype":"2","created":"1624013761"},{"id":"40","name":"manish","username":"manish123@gmail.com","phone":"8955443980","email":"manish123@gmail.com","status":"1","usertype":"2","created":"1623995898"},{"id":"36","name":"Dharm","username":"demo@gmail.com","phone":"946001342","email":"demo@gmail.com","status":"1","usertype":"2","created":"1623307937"},{"id":"12","name":"Harshita","username":"harshita.chaddha@brsoftech.com","phone":"7821055534","email":"harshita.chaddha@brsoftech.com","status":"1","usertype":"2","created":"1616477530"}]}}
+
+// assignrole: Request: {"userid":"42","menus":["1","2","3","4","5","6","7","8","9"]} ,RESPONSE : {"code":0,"error":false,"msg":"Resoures assigned successfully"}
+// getassignrole :  request =  userid	"42" , response = {"code":0,"error":false,"msg":"Assigned Menu.","data":[{"menuid":"1"}]}
+// addsubmenu : request = {"email":"admin@gmail.com","phone":"9780808085","name":"ASA","password":"Br@123456"}  response: {"code":1,"error":true,"msg":"User already register with this email"}
+// updatesubadmin: {}
+// updatesubadminstatus: {status: 1, userid: 42} , {"code":0,"error":false,"msg":"Status Updated."}
+
+
+API NO. 1. - JOBSEEKERS - - - - - - - - - - - - - - - - -
+
+	Purpose: "ADD/EDIT /UPDATE/ DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+		
+	Request URL : http://localhost:5000,
+
+	API URL: /getAllJobseekers, 
+
+	API URL: /addEditAlljobseekers, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+
+	Response : {
+			id : 1,
+			firstname: "John",
+			lastname: "Doe",
+			email: "johndoe@gmail.com",
+			dob :  236665944,
+			phone: +91-9999999999,
+
+			country: "India"
+			city: "Jaipur"
+			state: "Rajasthan"
+			address: "10 B Scheme BR Softech Pvt Limited Nile kanch wali building"
+			
+			job_industry: "IT",
+			job_title:  "Software Development"
+			job_type: "part time",
+			skills: "HTML,CSS,PHP,JS,MORE",
+			experience: 6 Years,
+			social_links: "http://linkedin.com/JohndoeDev",
+			about_me: "I am Software Developer from last 
+								6 years and i am working in saleforce
+								 force as JAVA DEVELOPER and i have a
+								  keen instrest in backend development ,
+									 i am expert in spring frmaework in java"
+
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+API NO. 2. -  EMPLOYERS - - - - - - - - - - - - - - - - -
+
+	Purpose: " LISTING / ADD/EDIT/UPDATE/DELETE/ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+
+	API URL: /getAllEmployers, 
+	API URL: /addEditAllEmployers,
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			firstname: "John",
+			lastname: "Doe",
+			email: "johndoe@gmail.com",
+			dob :  236665944,
+			phone: +91-9999999999,
+
+			country: "India"
+			city: "Jaipur"
+			state: "Rajasthan"
+			address: "10 B Scheme BR Softech Pvt Limited Nile kanch wali building"
+			
+			job_industry: "IT",
+			job_title:  "Software Development"
+			job_type: "part time",
+			skills: "HTML,CSS,PHP,JS,MORE",
+			experience: 6 Years,
+			social_links: "http://linkedin.com/JohndoeDev",
+			about_me: "I am Software Developer from last 
+								6 years and i am working in saleforce
+								 force as JAVA DEVELOPER and i have a
+								  keen instrest in backend development ,
+									 i am expert in spring frmaework in java"
+
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+API NO. 2. -  EMPLOYERS - - - - - - - - - - - - - - - - -
+
+	Purpose: "LISTING / ADD/EDIT/UPDATE/DELETE/ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+
+	API URL: /getAllEmployers, 
+	API URL: /addEditAllEmployers,
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			firstname: "John",
+			lastname: "Doe",
+			email: "johndoe@gmail.com",
+			dob :  236665944,
+			phone: +91-9999999999,
+
+			country: "India"
+			city: "Jaipur"
+			state: "Rajasthan"
+			address: "10 B Scheme BR Softech Pvt Limited Nile kanch wali building"
+			
+			job_industry: "IT",
+			job_title:  "Software Development"
+			job_type: "part time",
+			skills: "HTML,CSS,PHP,JS,MORE",
+			experience: 6 Years,
+			social_links: "http://linkedin.com/JohndoeDev",
+			about_me: "I am Software Developer from last 
+								6 years and i am working in saleforce
+								 force as JAVA DEVELOPER and i have a
+								  keen instrest in backend development ,
+									 i am expert in spring frmaework in java"
+
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+API NO. 3. -  GUEST USERS - - - - - - - - - - - - - - - - -
+
+	Purpose: "ADD/EDIT/UPDATE/DELETE/ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+
+	API URL: /getListGuestUsers,
+
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			firstname: "John",
+			lastname: "Doe",
+			email: "johndoe@gmail.com",
+			dob :  236665944,
+			phone: +91-9999999999,
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+
+
+API NO. 4. -  SUBADMIN - - - - - - - - - - - - - - - - -
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+
+	API URL: /getlistSubadmin, 
+	API URL: /addSubadmin,
+	API URL: /EditSubadmin,
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			firstname: "John",
+			lastname: "Doe",
+			email: "johndoe@gmail.com",
+			phone: +91-9999999999,
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+
+
+
+API NO. 5 . -  ALL JOBS - - - - - - - - - - - - - - - - -
+
+		Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+
+	API URL: /getlistofJObs, 
+	API URL: /addjobs,
+	API URL: /editjobs,
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			jobid: 7,
+			employer: "BRSOFTECH",
+			jobTitle: "PHP Dev",
+			phone: +91-9999999999,
+			skills: "HTML,CSS,PHP,JS,MORE",
+			country: "India"
+			city: "Jaipur"
+			state: "Rajasthan"
+			address: "10 B Scheme BR Softech Pvt Limited Nile kanch wali building"
+			job_description: "php devloper with laravel and CPHP and CI experience",
+			job_type: "part time",
+
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+API NO. 6 . -  APPLIED JOBS - - - - - - - - - - - - - - - - -
+
+		Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+
+	API URL: /getlistofJObs, 
+	API URL: /addjobs,
+	API URL: /editjobs,
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			jobid: 7,
+			employer: "BRSOFTECH",
+			jobTitle: "PHP Dev",
+			phone: +91-9999999999,
+			applicants: 51,
+			aplicantslist: [
+				{name: "John",email:"someoneelse@gmail.com",phone: 6284487360,status}
+				{name: "John",email:"someoneelse@gmail.com",phone: 6284487360,status}
+				{name: "John",email:"someoneelse@gmail.com",phone: 6284487360,status}
+			]
+			skills: "HTML,CSS,PHP,JS,MORE",
+			country: "India"
+			city: "Jaipur"
+			state: "Rajasthan"
+			address: "10 B Scheme BR Softech Pvt Limited Nile kanch wali building"
+			job_description: "php devloper with laravel and CPHP and CI experience",
+			job_type: "part time",
+
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+API NO. 7 . -  MASTER MANAGER  - - - - - - - - - - - - - - - - -
+
+	
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 
+	Module:- ALL country -  
+	API URL: /getAllCountry, 
+	API URL: /AddCountry, 
+	API URL: /updateCountry, 
+	API URL: /deleteCountry, 
+	
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			country: "INDIA",
+			ccode: "+91",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 
+
+	Module:- ALL SKills -  
+	API URL: /getAllSKills, 
+	API URL: /AddSKills, 
+	API URL: /updateSKills, 
+	API URL: /deleteSKills, 
+	
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			skills: "HTML",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:- ALL Education -   
+	API URL: /getAllEducation, 
+	API URL: /AddEducation, 
+	API URL: /updateEducation, 
+	API URL: /deleteEducation,
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			education: "BCA",
+			educationFull: "Bechlore of computer Application",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:- ALL Designations -  
+		API URL: /getAllDesignations, 
+		API URL: /AddDesignations, 
+		API URL: /updateDesignations, 
+		API URL: /deleteDesignations, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+
+			designations: "SR. DEVELOPER",
+			role: "REACT Developer",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:- ALL InstItutes -  
+		API URL: /getAllInstItutes, 
+		API URL: /AddInstItutes, 
+		API URL: /updateInstItutes, 
+		API URL: /deleteInstItutes, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			InstItutes: "COLLEGE NAME",
+			City: "COLLEGE NAME",
+			STATE: "COLLEGE NAME",
+			COUNTRY: "COLLEGE NAME",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:- JOB TYPES -  
+		API URL: /getAlljobTypes, 
+		API URL: /AddjobTypes, 
+		API URL: /updatejobTypes, 
+		API URL: /deletejobTypes, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			jobTypes: "Part Time",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+	
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ 	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:- JOB INDUSTRY -  
+		API URL: /getAllindustry, 
+		API URL: /Addindustry, 
+		API URL: /updateindustry, 
+		API URL: /deleteindustry, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			jobIndustry: "IT,SOFTWARE",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Functional Area -  
+		API URL: /getAllfunctionalarea, 
+		API URL: /Addfunctionalarea, 
+		API URL: /updatefunctionalarea, 
+		API URL: /deletefunctionalarea, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			functionalarea: "Jaipur",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Career  Level -  
+		API URL: /getAllCareerLevel,
+		API URL: /AddCareerLevel,
+		API URL: /updateCareerLevel, 
+		API URL: /deleteCareerLevel,
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			careerlevel: "jaipur",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Distance Range -  
+		API URL: /getAlldistanceRange, 
+		API URL: /AdddistanceRange, 
+		API URL: /updatedistanceRange, 
+		API URL: /deletedistanceRange, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			distanceRange: "10km",
+			status: 1,
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Compnies -  
+		API URL: /getAllcompanies, 
+		API URL: /Addcompanies, 
+		API URL: /updatecompanies, 
+		API URL: /deletecompanies, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			company: "SALEFORCE",
+			status: 1,
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Schedule -  
+		API URL: /getAllschedules, 
+		API URL: /Addschedule, 
+		API URL: /updateschedule, 
+		API URL: /deleteschedule, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			shedule: "schedulename",
+			starttime: "time",
+			closetime: "time",
+			breaktime: '1.00PM'
+			status: 1,
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Education - Level   
+		API URL: /getAlleducationlevel, 
+		API URL: /Addeducationlevel, 
+		API URL: /updateeducationlevel, 
+		API URL: /deleteeducationlevel, 
+
+	Request Headers : 
+	{
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			educationlevel: "Higher Education ,  Master Degree"
+			status:  1,
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Experience   
+		API URL: /getAllExperience`, 
+		API URL: /AddExperience`, 
+		API URL: /updateExperience, 
+		API URL: /deleteExperience, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			Experience: "1year , <1,1.5"
+			status:  1,
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Event Type -    
+		API URL: /Addeventtype, 
+		API URL: /updateeventtype, 
+		API URL: /deleteeventtype, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			eventtype: ""
+			status:  1,
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Salary Range -    
+		API URL: /Addsalaryrange, 
+		API URL: /updatesalaryrange, 
+		API URL: /deletesalaryrange, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			salaryrange: "4.25 lakh"
+			status:  1,
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Expiry Date -    
+		API URL: /Addexpirydate, 
+		API URL: /updateexpirydate, 
+		API URL: /deleteexpirydate, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			expirydate: ""
+			status:  1,
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Payment Offered -    
+		API URL: /Addpayemntoffered, 
+		API URL: /updatepayemntoffered, 
+		API URL: /deletepayemntoffered, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			payemntoffered: "45k"
+			status:  1,
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 	
+	Module:-  Payment Offered -    
+		API URL: /Addpayemntoffered, 
+		API URL: /updatepayemntoffered, 
+		API URL: /deletepayemntoffered, 
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			payemntoffered: "45k"
+			status:  1,
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+API NO. 25 . -  MOCK INTERVIEW  - - - - - - - - - - - - - - - - -
+
+	
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 
+	Module:- ALL INTERVIEW -  
+	API URL: /listinginterview, 
+	API URL: /AddInterview, 
+	API URL: /updateinterview, 
+	API URL: /deleteinterview, 
+	
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			country: "INDIA",
+			ccode: "+91",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 
+	Module:- ALL INTERVIEW - 
+	API URL: /listIng, 
+	API URL: /listIng, 
+	API URL: /updateCountry, 
+	API URL: /deleteCountry, 
+	
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			country: "INDIA",
+			ccode: "+91",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+
+
+	Purpose: "LISTING / ADD /EDIT/ UPDATE / DELETE /ACTIVE/INACTIVE"
+
+	method: GET,POST,PUT - As required According to you,
+
+	Request URL : http://localhost:5000,
+ 
+	Module:- ALL INTERVIEW - 
+	API URL: /listIng, 
+	API URL: /listIng, 
+	API URL: /updateCountry, 
+	API URL: /deleteCountry,
+
+	Request Headers : 
+	{ 
+		Authorization: "Bearer + Token",
+		Content-Type: "application/json"
+	},
+	Response : {
+			id : 1,
+			country: "INDIA",
+			ccode: "+91",
+			status: 1, 
+			createdAt: 54566665666,
+			logindate: 54566665667,
+	}
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+	
+
+
+
+

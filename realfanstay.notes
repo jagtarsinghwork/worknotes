@@ -1,0 +1,41 @@
+admin
+
+1. Team Name & Team initials should not be copyrighted
+BR Reply :Already discussed in last meeting that you need to update the team name from frontend side.
+
+2. Build upload section from Admin panel
+BR Reply : This is the new feature that we need to implement and it takes minimum 4 days.
+
+3. Scheduler for banner and notification
+BR Reply : This is new features and it takes time. We already used many crone jobs if we schedule then system can slow. We need to implement as per your requirements.
+
+4. Team sorting should be functional on cap/vc selection screen (should come after user reach count above 5000)
+BR Reply : Already discussed, we need to check once our users reached above 5000 or more.
+
+5. Even after timers ends for a match user can still participate in contest on the app as well as web & after timer is displaying negative incase of match gets delayed time should be updated automatically.
+BR Reply : We already given this in admin panel where you can set the timer according to yourself if any match is delayed.
+And the time is coming from cricket api and it is updating automatically.
+
+6. After joining with 10 teams, already joined with max teams toast should invoke ( All contest and my matches upcoming section)
+BR Reply :Already showing.
+
+7. Dynamic Pop for " Pan card will be verified within x hours " not present
+BR Reply : We will update this in which we will show this message " Pan card will be verified within few hours "
+
+8. 1st prize hidden currently because value is wrong
+BR Reply : We need to implement as per your requirement. We already showing the prize break.
+
+9. My teams cards details should not be static ( per team players count, Overall 11 segregation, Cap/VC photo)
+BR Reply : It is not from our side. In android showing some parts are static. We already given you the functional.
+
+10. when match goes live teams points should be present in the team card
+BR Reply : When you implement new design or features for your app then you need to update us.
+
+11. how many multiple teams can participate in a contest should be able to control from the backend 
+BR Reply : Currently one user can create 10 team and it is manageable from backend. And today meetings we need to update 20 team. We will update from backend but you need also update from frontend.
+
+12. bot autofill
+BR Reply : This is the big tasks and it takes too much time. You need to explain us how you want to proceed bot autofill process.
+
+13. Filters in the notification from admin panel
+BR Reply : Which type of filters you wants.

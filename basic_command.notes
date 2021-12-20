@@ -1,0 +1,3 @@
+publisher:"Prettier"
+npx prettier --write . //  for format the prettier file of js 
+npx prettier --check . //  to check the format of file which is not coorect

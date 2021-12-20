@@ -1,0 +1,34 @@
+Food Admin 
+
+- Type Culsion At the time of add category when admin upload image the then image is not saved.
+- Add Category At the time of add category when admin upload image the then image is not saved.
+- Admin Web Portal || System is accepting wrong combination of "From Date" & "To Date " combination in "Restaurant Order List" P"
+- Vendor web portal || Personal details page is showing nothing after clicking on "Details" on "Dine In " page
+- Admin Portal || Given Discount for Order is not visible in Discount page At "Order Management " module
+- Vendor Panel || Vendor not able to edit product details in product detail page in "Product management " module
+- Admin Panel || After selecting "Driver Type " as "Restaurant" , check boxes are not properly aligned
+- Admin ,login- go to vendor=add restaurant
+- Admin Url is converting into Restro URL and VIce-Versa while opening in same browser
+- Admin Panel || After clicking on "Week Duration Tab " in "Restaurant Admin Earning" page , No data is shown for that week
+- Admin Panel || System is allowing to create Duplicate drivers with same data
+- Vendor web portal || Issue created by the the customer at "Website" for their order placed is not visible to vendor
+- Vendor web portal || System is accepting invalid input in "Table Booking " Module for Dine In
+
+
+
+
+Admin 
+
+POST http://139.162.29.56/mypizzeria/api/v1/order/orderDetail  -  {error :true ,status :1} - need to check  - response is wrong
+GET http://139.162.29.56/mypizzeria/api/v1/job?restro_id=6104daa8ba171f0da513443b - need to check  - response is wrong
+GET http://139.162.29.56/mypizzeria/api/v1/job?restro_id=6104daa8ba171f0da513443b -  need to check - response is wrong
+Need to truncate all data foodadmin 
+Admin Panel || System is allowing to create Duplicate drivers with same data - need to check in backend
+Admin Panel || After clicking on "Week Duration Tab " in "Restaurant Admin Earning" page , No data is shown for that week  -  need to check in
+Category searching api not work -  GET http://139.162.29.56/mypizzeria/api/v1/job_category
+
+
+GET http://139.162.29.56/mypizzeria/api/v1/job_category
+POST http://139.162.29.56/mypizzeria/api/v1/changeCategoryStatus
+
+

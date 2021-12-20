@@ -1,0 +1,35 @@
+	git clone https://brsoftjune@bitbucket.org/brsoftjune/mypizzeria_admin.git
+	@123developer
+
+
+
+	
+	
+POST http://139.162.29.56/mypizzeria/api/v1/product/addproduct
+
+
+Kindly add the following to the data in this api - - - - - - - - 
+      attributes: [
+        {
+          name: "",
+          price: "",
+					minselection: ""
+          subattributes: [
+            {
+              name: "",
+              price: "",
+            },
+          ],
+        },
+        {
+          name: "",
+          price: "",
+					minselection: ""
+          subattributes: [
+            {
+              name: "",
+              price: "",
+            },
+          ],
+        },
+      ],

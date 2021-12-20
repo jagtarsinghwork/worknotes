@@ -1,0 +1,132 @@
+{"_id":"6151886f0e2213749e627217","role":"admin","today_game_result":{"game_bet_id":"6151886f0e2213749e627217","winning_bet_number":"26","winning_amount":""}}
+
+
+
+{"status":"active","_id":"6151886f0e2213749e627217","game_name":"DESAWER","start_date":"2021-09-27T06:25","end_date":"2021-09-27T03:00","today_game_result":[{"winner_user_id":[],"today_date":"2021-09-28T17:41:01.574Z","_id":"615353ad8220db7b458e54f9","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":12,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-09-29T05:36:07.881Z","_id":"6153fb478220db7b458e5576","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":61,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-09-30T06:14:09.271Z","_id":"615555b18220db7b458e560c","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":94,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-02T04:32:09.906Z","_id":"6157e0c98220db7b458e5786","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":14,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-03T05:36:45.034Z","_id":"6159416d8220db7b458e57d9","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":41,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-04T06:09:50.699Z","_id":"615a9aae8220db7b458e5838","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":80,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-05T03:53:11.243Z","_id":"615bcc278220db7b458e58ff","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":21,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-06T05:12:45.364Z","_id":"615d304d8220db7b458e5a0b","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":17,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-07T05:22:08.523Z","_id":"615e84008220db7b458e5b1f","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":94,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-08T06:00:47.653Z","_id":"615fde8f8220db7b458e5ba0","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":98,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-09T06:00:52.657Z","_id":"616130148220db7b458e5c90","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":62,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-10T05:08:08.092Z","_id":"616275388220db7b458e5d25","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":80,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-11T04:32:23.620Z","_id":"6163be578220db7b458e5dcc","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":53,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-12T04:10:58.183Z","_id":"61650ad28220db7b458e5e86","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":86,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-13T03:29:16.215Z","_id":"6166528c8220db7b458e5f75","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":50,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-14T04:55:14.049Z","_id":"6167b8328220db7b458e6053","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":21,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-15T03:23:57.469Z","_id":"6168f44d8220db7b458e6169","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":70,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-16T05:55:35.142Z","_id":"616a69578220db7b458e623a","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":94,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-17T02:22:53.697Z","_id":"616b88fd8220db7b458e6319","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":75,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-18T05:03:08.076Z","_id":"616d000c8220db7b458e63fd","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":51,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-18T23:50:30.697Z","_id":"616e08468220db7b458e6527","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":35,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-20T04:34:05.209Z","_id":"616f9c3d8220db7b458e6627","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":76,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-21T04:43:47.163Z","_id":"6170f0038220db7b458e6731","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":64,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-22T04:17:13.518Z","_id":"61723b498220db7b458e68ae","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":46,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-23T04:22:55.754Z","_id":"61738e1f41343c062af73458","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":43,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-24T05:30:51.175Z","_id":"6174ef8b41343c062af735ab","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":62,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-25T06:13:35.513Z","_id":"61764b0f41343c062af736de","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":46,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-26T03:11:14.227Z","_id":"617771d241343c062af73879","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":43,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-27T05:29:43.904Z","_id":"6178e3c741343c062af73a27","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":56,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-28T05:25:06.032Z","_id":"617a343241343c062af73bba","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":79,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-29T05:33:01.888Z","_id":"617b878d41343c062af73d53","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":32,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-30T03:48:47.982Z","_id":"617cc09f41343c062af73f53","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":50,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-10-31T03:36:49.476Z","_id":"617e0f5141343c062af74109","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":2,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-02T02:48:05.168Z","_id":"6180a6e541343c062af742e9","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":86,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-03T03:26:46.839Z","_id":"6182017641343c062af7446c","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":34,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-04T04:57:17.390Z","_id":"6183682d41343c062af7462a","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":26,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-05T05:22:03.340Z","_id":"6184bf7b41343c062af747bb","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":61,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-06T05:52:48.956Z","_id":"6186183041343c062af74972","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":79,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-07T05:30:26.323Z","_id":"6187647241343c062af74b16","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":76,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-08T05:39:48.701Z","_id":"6188b82441343c062af74ce3","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":71,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-09T04:11:53.150Z","_id":"6189f50941343c062af74ea4","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":65,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-10T04:35:40.375Z","_id":"618b4c1c41343c062af750c2","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":89,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-11T06:45:08.864Z","_id":"618cbbf441343c062af752ca","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":9,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-12T04:18:22.502Z","_id":"618deb0e41343c062af754ce","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":57,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-13T06:21:30.884Z","_id":"618f596a41343c062af756eb","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":74,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-14T05:57:29.314Z","_id":"6190a54941343c062af75922","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":5,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-15T06:59:32.868Z","_id":"6192055441343c062af75b33","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":84,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-16T07:20:24.723Z","_id":"61935bb841343c062af75d8a","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":64,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-17T05:24:32.312Z","_id":"6194921041343c062af75fcf","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":93,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-18T06:27:20.760Z","_id":"6195f24841343c062af7629f","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":43,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-19T05:27:33.586Z","_id":"619735c541343c062af76588","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":69,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-20T00:49:06.599Z","_id":"6198460241343c062af768cd","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":83,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-21T03:23:13.938Z","_id":"6199bba141343c062af76bcb","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":69,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-22T05:05:35.348Z","_id":"619b251f41343c062af76f99","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":32,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-22T05:05:52.690Z","_id":"619b253041343c062af76fd1","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":40,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-23T05:02:44.930Z","_id":"619c75f441343c062af77351","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":14,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-24T04:56:42.379Z","_id":"619dc60a41343c062af776d8","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":82,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-25T03:21:07.976Z","_id":"619f012341343c062af77a5f","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":37,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-26T06:32:56.816Z","_id":"61a07f9841343c062af77d0b","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":49,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-28T06:38:47.503Z","_id":"61a323f741343c062af7835b","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":31,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-29T05:35:04.557Z","_id":"61a4668841343c062af78748","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":61,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-11-30T04:30:06.526Z","_id":"61a5a8ce41343c062af78aa8","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":6,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-12-02T06:43:38.063Z","_id":"61a86b1ab2c5a1094b968317","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":74,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-12-04T05:42:24.666Z","_id":"61aaffc0890d12064fd6aa3c","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":69,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-12-05T06:49:22.582Z","_id":"61ac60f2890d12064fd6ace9","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":32,"winning_amount":null},{"winner_user_id":[],"today_date":"2021-12-06T06:38:39.299Z","_id":"61adafef890d12064fd6b047","game_bet_id":"6151886f0e2213749e627217","winning_bet_number":7,"winning_amount":null}],"created_at":"2021-09-27T09:01:35.589Z","updated_at":"2021-12-06T06:38:39.304Z","__v":0}
+
+
+{
+    "_id" : ObjectId("613f907b7e95d6236017c1a9"),
+    "transaction_type" : "credit",
+    "transaction_mode" : "card",
+    "transaction_status" : "rejected",
+    "wallet_id" : ObjectId("612699b159a2220b4835b893"),
+    "amount" : 100,
+    "createdAt" : ISODate("2021-09-13T17:55:07.993Z"),
+    "updatedAt" : ISODate("2021-09-16T14:17:44.363Z"),
+    "__v" : 0
+}
+
+
+
+
+
+
+points Done
+0034066	-  Admin web portal || Order management || Restaurant Cancel Order || system is accepting wrong combination of from/To date (Done)
+0034289	-  Vendor web portal || create new restro || error message for duplicate restro or mobile is not appearing on screen (Done)
+0032609	-  Vendor web portal || Issue created by the the customer at "Website" for their order placed is not visible to vendor (Done)
+0034021 -  Vendor Web Portal || orders || Order details || Instructions given by customer at the time of order placed , are not visible to (Done)
+0034067	-  Admin web portal || Order management || Item Wise Restaurant Report || system is accepting wrong combination of from/To date (Done)
+0034312 -  vendor web portal|| create new restro || email/mobile no already exist validation message is not showing to user (Done)
+0033938 - Vendor Web Portal || while working on vendor web portal user is not able to refresh the webpage , if does then has to login again. (Done)
+0033939 - Vendor Web Portal || while working on vendor web portal user gets logout by itself sometimes. (Done)
+
+
+
+
+Admin Web Portal || Restaurent admin earning are not visible properly
+Admin Portal || Given Discount for Order is not visible in Discount page At "Order Management " module
+Vendor Web Portal || Login page || Forget password feature is not there
+Admin Web Portal || Location management || Country management || admin is not able to add additional fields
+Vendor web portal || url of vendor web portal is getting changed by it self
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+1.  POST http://139.162.29.56/mypizzeria/api/v1/order/discount_report
+
+request Data: 
+
+-----------------------------186276973319863916671574108970
+Content-Disposition: form-data; name="start_date"
+2021-12-01
+-----------------------------186276973319863916671574108970
+Content-Disposition: form-data; name="end_date"
+2021-12-27
+-----------------------------186276973319863916671574108970--
+.......................................
+
+startdate and endate field should be option now its mandatory
+
+.......................................
+2. POST http://139.162.29.56/mypizzeria/api/v1/order/tablebooking
+
+"No. of person"  is not comming in data
+ .......................................
+Not implemented
+3. Forgot Password issue 
+.......................................
+Not Working as expected
+4. Notification Types issue
+.......................................
+
+this in Admin section My eraning old data is showing not updated from last dec
+5. POST http://139.162.29.56/mypizzeria/api/v1/order/listAdminEarning
+6. POST http://139.162.29.56/mypizzeria/api/v1/order/listAdminEarningPerWeek
+.......................................
+
+
+
+
+
+
+
+
+.......................................
+1. POST http://139.162.29.56/mypizzeria/api/v1/order/tablebooking
+
+issue is data is not comming according to the particular Restaurant all Restaurants orders are here showing and new orders 
+which are dine type not comming in tablebooking ,its goes in orders
+ .......................................
+
+2. POST http://139.162.29.56/mypizzeria/api/v1/job
+
+-----------------------------153057449522378636852913063738
+Content-Disposition: form-data; name="name"
+
+Driver
+-----------------------------153057449522378636852913063738
+Content-Disposition: form-data; name="name_de"
+
+Driver
+-----------------------------153057449522378636852913063738
+Content-Disposition: form-data; name="no_vacancy"
+
+0
+-----------------------------153057449522378636852913063738
+Content-Disposition: form-data; name="description"
+
+driver1
+-----------------------------153057449522378636852913063738
+Content-Disposition: form-data; name="description_de"
+
+driver1
+-----------------------------153057449522378636852913063738
+Content-Disposition: form-data; name="category_id"
+
+61af2877124f9b6bec8146be
+-----------------------------153057449522378636852913063738
+Content-Disposition: form-data; name="restro_id"
+
+615410f68b91b676960eed45
+-----------------------------153057449522378636852913063738--
+
+response : {"message":"Job alredy registered","status":1,"error":true}
+This is because when i delete old vacancy they  not not delete properly 
+.......................................
+
+
+3. Also need the api for the :  issues which are created from webisite so i can list ina dmin panel 
