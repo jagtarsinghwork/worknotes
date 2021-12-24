@@ -6619,7 +6619,7 @@ These  are some major issues which is resolved - and remaining issues are resolv
 Admin Link :  http://139.162.29.56/mypizzeria/admin/login
 Restaurant Link :  http://139.162.29.56/mypizzeria/admin/restaurant/loginRestro
 
-
+Vendor Portal || Job management ||job types || add vacancy|| user is not able to add vacancy
 Vendor web portal || System is accepting invalid input in "Table Booking " Module for Dine In
 Vendor web portal || Personal details page is showing nothing after clicking on "Details" on "Dine In " page
 Vendor panel Login> Registered from vendor panel> documents are approved from admin side but still unable to login.
@@ -6654,3 +6654,126 @@ vendor web portal|| create new restro || email/mobile no already exist validatio
 Admin web portal || Order management || Item Wise Restaurant Report || system is accepting wrong combination of from/To date
 Admin web portal || Order management || Restaurant Cancel Order || system is accepting wrong combination of from/To date
 Vendor Web Portal || Table Booking || Details || "Column" values are not showing in personal details page for Dine In order deta
+
+
+
+
+
+.....................................................................................................................
+20-12-2021 - Tuseday
+
+Jagtar Singh
+Food delivery My Pizzeria
+
+Hello Team,
+Today Update,
+0034344 - Vendor Portal || Dilevery charges || spelling correction -> "Dilevery" should be "dellivery"
+0033937 -	Vendor web portal || url of vendor web portal is getting changed by it self
+0034290 -  Admin web portal || vendor management || view doc || new restro doc verification should be done through step by step
+0032609 -  Vendor web portal || Issue created by the the customer at "Website" for their order placed is not visible to vendor
+Worked with the discount Report section for the particular discount. 
+changes in the Instructions in admin panel or vendor for the particular order.
+0033786	- Admin Web Portal || Driver management || drivers || admin is not able to reject/approve particular document
+0034089 -  Admin web portal || Dashboard || Requested Drivers || Driver ia approved and document verified , Than also notification exist
+0034356	-  Vendor Portal ||Discount management || given discount from date is showing invalid
+0034344	-  Vendor Portal || Dilevery charges || spelling correction -> "Dilevery" should be "dellivery"
+0033786 -  Admin Web Portal || Driver management || drivers || admin is not able to reject/approve particular document
+0033565	-	 Admin Web Portal || Location management || Country management || admin is not able to add additional fields
+// 0034103	-  Vendor Web Portal || Table Booking || Details || "Column" values are not showing in personal details page for Dine In order deta
+// 0034099	-  Vendor Web Portal || Table Booking || Dine In (Table Booking ) orders are not visible to Table boooking module list
+// 0032468 -  Admin Portal || Given Discount for Order is not visible in Discount page At "Order Management " module
+// 0034103 -  Vendor Web Portal || Table Booking || Details || "Column" values are not showing in personal details page for Dine In order deta.(working)
+// 0034101 -  Vendor Web Portal || Table Booking || "No. Of Person" column is not showing correct value as provided by customer
+// 0034066	-  Admin web portal || Order management || Restaurant Cancel Order || system is accepting wrong combination of from/To date (Done)
+// 0034289	-  Vendor web portal || create new restro || error message for duplicate restro or mobile is not appearing on screen (Done)
+
+Thank You
+.....................................................................................................................
+20-11-2021 - Tuseday
+
+Jagtar Singh
+Food delivery My Pizzeria
+
+Hello Team,
+Today Update,
+0034344 - Vendor Portal || Dilevery charges || spelling correction -> "Dilevery" should be "dellivery"
+0033937 -	Vendor web portal || url of vendor web portal is getting changed by it self
+0034290 -  Admin web portal || vendor management || view doc || new restro doc verification should be done through step by step
+Worked with the discount Report section for the particular discount. 
+changes in the Instructions in admin panel or vendor for the particular order.
+0033786	- Admin Web Portal || Driver management || drivers || admin is not able to reject/approve particular document
+0034089 -  Admin web portal || Dashboard || Requested Drivers || Driver ia approved and document verified , Than also notification exist
+0034356	-  Vendor Portal ||Discount management || given discount from date is showing invalid
+0034344	-  Vendor Portal || Dilevery charges || spelling correction -> "Dilevery" should be "dellivery"
+0033786 -  Admin Web Portal || Driver management || drivers || admin is not able to reject/approve particular document
+0033565	-	 Admin Web Portal || Location management || Country management || admin is not able to add additional fields
+
+0032609 -  Vendor web portal || Issue created by the the customer at "Website" for their order placed is not visible to vendor
+Thank You
+
+Hello Team,
+Today Update,
+Vendor Portal || Job management ||job types || add vacancy|| user is not able to add vacancy
+Vendor web portal || System is accepting invalid input in "Table Booking " Module for Dine In
+Vendor web portal || Personal details page is showing nothing after clicking on "Details" on "Dine In " page
+Vendor panel Login> Registered from vendor panel> documents are approved from admin side but still unable to login.
+Admin>> Coupon Management> Add Coupon> Issue in selecting from date and to date.
+Vendor panel || System is allowing to select past date in "Valid From" and "Valid To " fields
+Vendor can check the order detail in every order status, we need to give this option in the Action tab. Find the attached screen. (Done)
+Field for Bank account data (fields for bank details are missing)image of non-mandatory fields e.g. kitchen image or image of locality, dining package image, should not be necessary only volunteerly.(Done)
+I tried to save data of a restaurant. I can’t save with German phone number, and under 10 numbers it is not possible too. That is an error. (Done)
+Phone number s have to have two fields one for city or provider-specific number and one for personal part. (Done)
+Payment options EC-Cash is missing. Price for two is an uncommon set for Europe it should not be a mandatory field. (Done)
+Field for Bank account data (fields for bank details are missing). (Done)
+Why is it necessary to set a password for adding restaurant data? Note: Remove password fields from restaurant data save.  (Done)
+
+Thanks
+
+
+
+
+Dear Sir, 
+	As per our telephonic conversation, these are my current working project details, Please find below: 
+
+Food Delivery  My Pizzeria
+
+Admin Link :  http://139.162.29.56/mypizzeria/admin/login
+
+email:  admin@gmail.com
+password: 123456
+
+
+Restaurant Link :  http://139.162.29.56/mypizzeria/admin/restaurant/loginRestro
+email:  pakiza@gmail.com
+password: 123456
+
+
+file Zila Details
+
+host:  139.162.29.56
+username: root
+port : 22
+password:  TQa25FTk0Tb6
+
+
+path:  /var/www/html/mypizzeria/admin    ......for file zila build uploads
+
+
+Work done in My Pizzeria Food Admin 
+
+mentis details are given below :
+
+username: jagtar.singh
+password: 123456
+
+All Details are provided to manish soni, if any query team will contact with me.
+
+Contact No.  :  6284487360,9780808551
+Email : jagtarsinghwork@gmail.com
+
+
+
+Thanks 
+Jagtar Singh
+
+

@@ -45,40 +45,6 @@ Vendor web portal || url of vendor web portal is getting changed by it self
 
 
 
---------------------------------------------------------------------------------------------------------------------------
-1.  POST http://139.162.29.56/mypizzeria/api/v1/order/discount_report
-
-request Data: 
-
------------------------------186276973319863916671574108970
-Content-Disposition: form-data; name="start_date"
-2021-12-01
------------------------------186276973319863916671574108970
-Content-Disposition: form-data; name="end_date"
-2021-12-27
------------------------------186276973319863916671574108970--
-.......................................
-
-startdate and endate field should be option now its mandatory
-
-.......................................
-2. POST http://139.162.29.56/mypizzeria/api/v1/order/tablebooking
-
-"No. of person"  is not comming in data
- .......................................
-Not implemented
-3. Forgot Password issue 
-.......................................
-Not Working as expected
-4. Notification Types issue
-.......................................
-
-this in Admin section My eraning old data is showing not updated from last dec
-5. POST http://139.162.29.56/mypizzeria/api/v1/order/listAdminEarning
-6. POST http://139.162.29.56/mypizzeria/api/v1/order/listAdminEarningPerWeek
-.......................................
-
-
 
 
 
@@ -130,3 +96,55 @@ This is because when i delete old vacancy they  not not delete properly
 
 
 3. Also need the api for the :  issues which are created from webisite so i can list ina dmin panel 
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+1.  POST http://139.162.29.56/mypizzeria/api/v1/order/discount_report
+
+request Data: 
+
+-----------------------------186276973319863916671574108970
+Content-Disposition: form-data; name="start_date"
+2021-12-01
+-----------------------------186276973319863916671574108970
+Content-Disposition: form-data; name="end_date"
+2021-12-27
+-----------------------------186276973319863916671574108970--
+.......................................
+
+startdate and endate field should be option now its mandatory
+
+response :  
+{
+	"0": {
+		"discounted_price": 438.745,
+		"_id": "61bc33c046346519cf0ddc0f"
+	}
+}  
+these fileds are comming 
+but we also need 
+Customer Name,	Order Id	,Order Number, 	Discount Amount	, Bill Amount	, Total Amount
+
+
+.......................................
+2. POST http://139.162.29.56/mypizzeria/api/v1/order/tablebooking
+
+table booking is not working properly all order are showing in table booking which is dine type
+.......................................
+3. POST http://139.162.29.56/mypizzeria/api/v1/order/helpwithorders  // Need to make this api 
+
+this is not an api at this time but i need it in for admin where people put issues on  the website and i need this data in this api
+Restaurant name , Subject , Message, orderdetails
+
+4. POST http://139.162.29.56/mypizzeria/api/v1/order/suggestionsandcomplaints  // Need to make this api 
+
+this is not an api at this time but i need it in for admin where people put issues on  the website and i need this data in this api
+Restaurant name , Subject , Message, orderdetails
+
+5. POST http://139.162.29.56/mypizzeria/api/v1/order/listAdminEarning
+Not working as last time descrbe ,all flow checked and working yet
+6. POST http://139.162.29.56/mypizzeria/api/v1/order/listAdminEarningPerWeek
+

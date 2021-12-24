@@ -1,3 +1,22 @@
 publisher:"Prettier"
 npx prettier --write . //  for format the prettier file of js 
 npx prettier --check . //  to check the format of file which is not coorect
+
+git config --global user.email "some@gmail.com"
+ && git config --global user.name "some"
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
