@@ -1,0 +1,34 @@
+Understanding:  
+
+-Admin can login using : Email ,Password - 24 for setup of admin.
+-User Listing With the user fillds -  24 h 
+-User Profie Management -  16 hour
+-Admin can create the courses with: Course fee (Free/Paid)    - If paid then it will ask the amount.
+Title -Timings -Language -Level -Validity -Exam Category -Exam Sub Category -Enbale featured courses  50 h
+-Admin Can create the exam Category that cosist the name of exam category and the name of sub category  - 24 h
+-Admin can upload the test series with the following - Test series title - File upload (PDF)  - 32 h
+-Admin Can upload the current affairs video that consist: -Video Title -Video URL or Video file (browse) 40 h
+-Admin can upload the Notes with the following: -Notes title - File upload (PDF) 24 hours
+-Admin Can send the notification to the users: 
+	Select User (Multiple/all) - Date and time - Title - Description On the click of "Send" button, the 
+	notification will trigger to the selected users on the selected time  - 30 h
+-Admin can make live session against any course.
+Admin will select the course -  Click on live session to create. Create the live session using the details like 
+- Title- Description  - Timing - Click on create live session.  This will send an instant notification to the 
+user's who have purchased the course.  40 h
+On the time of Session, admin will get a notification to start the session.
+- On click of notification, will redirect to the session listing page.
+-Click on "Session start"	
+-this will ask the permission of video and audio and open a window to start the session. 150 h
+-At the end of live session, Admin will click on End session. 10 h
+-After the end of session, the recorded session will store against the course.
+-At any point of time, Admin can upload PDF against any live session. 18 h
+
+Query 
+Need More details about Live session 
+
+Assumptions
+API will Provided by backend person
+
+
+hours to complete the project :  490 Assumed and Can go upto 600

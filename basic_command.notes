@@ -4,6 +4,10 @@ npx prettier --check . //  to check the format of file which is not coorect
 
 git config --global user.email "some@gmail.com"
  && git config --global user.name "some"
+
+
+
+
  
 
 

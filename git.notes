@@ -1,0 +1,56 @@
+$ git config --list --show-origin
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+$ git config --global core.editor
+$ git config --list
+$ git config --global init.defaultBranch main
+$ git config --global init.defaultBranch master
+$ git add .  
+$ git commit -m "first commit"
+$ git remote add origin https://github.com/codevodecode/codevodecode/learngit.git
+$ git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Next
+$ git remote -v
+$ git branch
+$ git branch -a
+$ git branch -d master
+$ git branch -D master
+$ git branch -m master
+
+
