@@ -11,6 +11,23 @@ $ git remote add origin https://github.com/codevodecode/codevodecode/learngit.gi
 $ git push -u origin master
 
 
+git status
+git commit --amend
+
+
+
+
+
+
+
+
+
+
+connecting and generating ssh key
+ssh-keygen -t rsa -b 4096 -C "
+eval `ssh-agent -s`
+ssh-add ~/.ssh/id_rsa 
+
 
 
 
