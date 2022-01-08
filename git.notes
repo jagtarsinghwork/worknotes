@@ -10,9 +10,15 @@ $ git commit -m "first commit"
 $ git remote add origin https://github.com/codevodecode/codevodecode/learngit.git
 $ git push -u origin master
 
+UNDOING THINGS
 
 git status
 git commit --amend
+git reset HEAD filename
+git restore --staged filename
+git checkout -- CONTRIBUTING.md
+git restore filename
+
 
 
 
